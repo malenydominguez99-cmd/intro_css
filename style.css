@@ -1,0 +1,88 @@
+body {
+    background-color: burlywood; 
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav button {
+    background-color: #f4b6c2; 
+    color: brown;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #e75480; 
+}
+
+h1 {
+    color: #5a3825;
+    text-decoration: underline;
+}
+
+.imagen-cafe {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #5a3825;
+    display: block;
+    margin: 15px auto;
+}
+
+.parrafo-cafe {
+    background-color: #5a3825;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.menu {
+    color: #5a3825;
+    font-size: 16px;
+}
+
+.formulario {
+    background-color: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+form button {
+    background-color: #f4b6c2;
+    color: brown;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e75480;
+}
+
