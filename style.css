@@ -86,3 +86,51 @@ form button:hover {
     background-color: #e75480;
 }
 
+.ejemplos-display {
+    background-color: #f7e6d3;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.ejemplos-display h3 {
+    color: #5a3825;
+    margin-top: 20px;
+}
+
+/* Estilo base para todas las cajas */
+.caja {
+    background-color: #f4b6c2;
+    color: brown;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* display: block */
+.block {
+    display: block;
+    width: 100%;
+}
+
+/* display: inline */
+.inline {
+    display: inline;
+    padding: 5px 10px;
+}
+
+/* display: inline-block */
+.contenedor-inline-block {
+    border: 2px dashed #5a3825;
+    padding: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 5px;
+}
+
