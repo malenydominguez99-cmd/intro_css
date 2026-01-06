@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafetería de Maleny</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Nav -->
+    <!-- Nav principal -->
     <nav>
         <a href="#inicio"><button>Inicio</button></a>
         <a href="#menu"><button>Menú</button></a>
         <a href="#pedido"><button>Pedido</button></a>
     </nav>
 
-    <!-- Título -->
-     <form id="inicio"></form>
+    <!-- Menú de ejemplos CSS -->
+    <nav class="menu-ejemplos">
+        <a href="#display">Display</a>
+        <a href="#box-model">Box Model</a>
+        <a href="#box-sizing">Box Sizing</a>
+        <a href="#herencia">Herencia</a>
+    </nav>
+
+    <form id="inicio"></form>
     <h1>Cafetería Maleny</h1>
 
-    <!-- Imagen -->
     <img src="cafe.png" alt="Taza de café" class="imagen-cafe">
 
     <p class="parrafo-cafe">
@@ -28,7 +33,6 @@
         seleccionados y mucho amor.
     </p>
 
-    <!-- Menú -->
     <section>
         <form id="menu"></form>
         <h2>Menú de Cafés</h2>
@@ -41,7 +45,6 @@
         </p>
     </section>
 
-    <!-- Formulario -->
     <form id="pedido" class="formulario">
         <h2>Pedido de Café</h2>
 
@@ -57,35 +60,55 @@
         <button type="submit">Enviar pedido</button>
     </form>
 
-<!-- Ejemplos de display -->
-<section class="ejemplos-display">
-    <h2>Ejemplos de display</h2>
+    <!-- Ejemplos de display -->
+    <section id="display" class="ejemplos-display">
+        <h2>Ejemplos de display</h2>
 
-    <!-- display: block -->
-    <h3>display: block</h3>
-    <div class="caja block">Caja BLOCK 1</div>
-    <div class="caja block">Caja BLOCK 2</div>
+        <h3>display: block</h3>
+        <div class="caja block">Caja BLOCK 1</div>
+        <div class="caja block">Caja BLOCK 2</div>
 
-    <!-- display: inline -->
-    <h3>display: inline</h3>
-    <p>
-        Texto normal 
-        <span class="caja inline">INLINE 1</span>
-        más texto 
-        <span class="caja inline">INLINE 2</span>
-        y más texto
-    </p>
+        <h3>display: inline</h3>
+        <p>
+            Texto normal 
+            <span class="caja inline">INLINE 1</span>
+            más texto 
+            <span class="caja inline">INLINE 2</span>
+            y más texto
+        </p>
 
-    <!-- display: inline-block -->
-    <h3>display: inline-block</h3>
-    <div class="contenedor-inline-block">
-        <div class="caja inline-block">1</div>
-        <div class="caja inline-block">2</div>
-        <div class="caja inline-block">3</div>
-    </div>
-</section>
+        <h3>display: inline-block</h3>
+        <div class="contenedor-inline-block">
+            <div class="caja inline-block">1</div>
+            <div class="caja inline-block">2</div>
+            <div class="caja inline-block">3</div>
+        </div>
+    </section>
 
+    <!-- Box Model -->
+    <section id="box-model" class="box-model-demo">
+        <h2>Demo: Box Model</h2>
+        <div class="box-model">Soy una caja de ejemplo</div>
+    </section>
+
+    <!-- Box Sizing -->
+    <section id="box-sizing" class="box-sizing-demo">
+        <h2>Demo: Box Sizing</h2>
+        <div class="box content-box">Content-box por defecto</div>
+        <div class="box border-box">Border-box</div>
+    </section>
+
+    <!-- Herencia -->
+    <section id="herencia" class="herencia-demo">
+        <h2>Demo: Herencia</h2>
+        <div class="padre">
+            Soy el elemento padre
+            <p>Este texto hereda estilos del padre</p>
+            <p class="hijo-especial">Este hijo sobrescribe el color</p>
+        </div>
+    </section>
 
 </body>
 </html>
+
 
